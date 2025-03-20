@@ -20,48 +20,70 @@
         }
         .logo {
             display: block;
-            margin: 0 auto;
-            width: 200px;
+            margin: 0 auto 20px;
+            width: 150px;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1000px;
             margin: auto;
-            overflow: hidden;
-            padding: 20px;
             background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .section {
-            padding: 20px 0;
+        h2 {
+            color: #004d00;
+            border-bottom: 3px solid #004d00;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "✔";
+            color: #004d00;
+            margin-right: 10px;
         }
         .footer {
             background: #004d00;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             margin-top: 20px;
+        }
+        .contact {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        a {
+            color: #004d00;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="BD45FE4E-0DBE-4849-A3C3-0856D79525CF.png" alt="Alpha Root Technologies Logo" class="logo">
+        <img src="logo.png" alt="Alpha Root Technologies Logo" class="logo">
         <h1>Alpha Root Technologies</h1>
         <p>Innovating Nigeria's Digital Future</p>
     </header>
 
     <div class="container">
-        <section class="section">
+        <section>
             <h2>About Us</h2>
             <p>Alpha Root Technologies is a forward-thinking technology company dedicated to driving digital transformation in Nigeria. We specialize in **E-Government solutions, E-Commerce & Digital Marketing, and Constructional Tech Works**. Our mission is to leverage cutting-edge technology to create innovative, scalable, and sustainable digital solutions that empower businesses and government operations.</p>
         </section>
 
-        <section class="section">
+        <section>
             <h2>Our Vision</h2>
             <p>To be the leading provider of technological solutions in Nigeria, bridging the gap between innovation and implementation while fostering economic and social development through digital transformation.</p>
         </section>
 
-        <section class="section">
+        <section>
             <h2>Our Services</h2>
             <ul>
                 <li><strong>E-Government Solutions:</strong> Transforming public sector operations with digital infrastructure.</li>
@@ -70,12 +92,12 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section>
             <h2>Our Current Project</h2>
             <p>We are currently working on an **E-Government Digital Transformation Platform** aimed at modernizing Nigeria’s public sector. This solution will simplify government services, improve efficiency, and enhance transparency through AI-driven automation, digital identity verification, and blockchain security.</p>
         </section>
 
-        <section class="section">
+        <section class="contact">
             <h2>Contact Us</h2>
             <p>Email: <a href="mailto:alpharoottechnologies@gmail.com">alpharoottechnologies@gmail.com</a></p>
             <p>Instagram: <a href="https://www.instagram.com/alpharoottechnologies" target="_blank">@alpharoottechnologies</a></p>
